@@ -1,0 +1,35 @@
+body {
+    background: rgb(250, 249, 248);
+    padding: 40px;
+
+}
+
+table tr, td{
+    width: 80px;
+    height: 80px;
+    border: solid #000 1px;
+    margin: auto;
+}
+
+td:nth-child(4n-2) {
+    background: rgb(44, 214, 77);
+}
+
+td:nth-child(2n) {
+    background: rgb(240, 87, 18);
+}
+
+tr:nth-child(4n-1) {
+    background: rgb(240, 87, 18);
+}
+
+tr:nth-child(2n) {
+    background: rgb(44, 214, 77);;
+}
+
+div {
+    background-color: rgb(240, 87, 18);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    }
